@@ -1,0 +1,70 @@
+h1{
+    color:rgb(255, 0, 0);
+}
+
+*{
+    font-style: italic;
+}
+.Me{
+    border:solid;
+    margin: 20px;
+}
+.Me{
+    background-color: rgba(0,255,255);
+}
+
+.Info{
+    background-color:rgb(137, 137, 255);
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+
+.medias{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    color: salmon;
+    font-size: 25px;
+}
+
+body{
+    background-color: seashell;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+.Item{
+    position: relative;
+}
+
+.Item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.Item:hover p{
+    opacity: 1;
+}
+
+.Item:hover img{
+    opacity: 0.33;
+}
